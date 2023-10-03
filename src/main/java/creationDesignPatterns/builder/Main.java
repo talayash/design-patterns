@@ -1,10 +1,10 @@
-package builder;
+package creationDesignPatterns.builder;
 
-import builder.pojo.Admin;
+import creationDesignPatterns.builder.pojo.Admin;
 
 public class Main {
 
-    public static void main(String args[]) {
+    public static void main(String[] args) {
 
         Admin admin1 = new Admin.Builder().userName("talayash").build();
         Admin admin2 = new Admin.Builder().userName("talayash").password("123456789").build();

@@ -1,4 +1,4 @@
-package builder.pojo;
+package creationDesignPatterns.builder.pojo;
 
 public abstract class User {
 

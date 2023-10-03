@@ -1,4 +1,4 @@
-package simpleFactory.pojo;
+package creationDesignPatterns.simpleFactory.pojo;
 
 public class Admin extends User{
 
